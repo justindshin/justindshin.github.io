@@ -1024,7 +1024,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(255, 255, 255, 0.175);
+			background-color: rgba(255, 153, 153);
 		}
 
 		input[type="submit"].icon:before,
@@ -1247,7 +1247,7 @@ input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
-
+/*
 			#header > *:before {
 				content: '';
 				display: block;
@@ -1278,7 +1278,7 @@ input, select, textarea {
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
-
+    
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
@@ -1286,7 +1286,7 @@ input, select, textarea {
 			border-bottom-width: 1px;
 			max-width: 100%;
 		}
-
+    */
 			#header .content .inner {
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1300,7 +1300,7 @@ input, select, textarea {
 				max-height: 40rem;
 				overflow: hidden;
 			}
-
+/*
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
 				}
@@ -1311,7 +1311,7 @@ input, select, textarea {
 				font-size: 0.8rem;
 				line-height: 2;
 			}
-
+    */
 		#header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -1340,7 +1340,7 @@ input, select, textarea {
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
-					letter-spacing: 0.2rem;
+					letter-spacing: 0.15rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
 				}
@@ -1350,7 +1350,7 @@ input, select, textarea {
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(255, 153, 153);  /*rgba(255, 255, 255, 1);*/
 					}
 
 		#header nav.use-middle:after {
@@ -1573,7 +1573,7 @@ input, select, textarea {
 				}
 
 				#main article .close:active:before {
-					background-color: rgba(255, 255, 255, 0.175);
+					background-color: rgba(255, 153, 153);
 				}
 
 		@media screen and (max-width: 736px) {
